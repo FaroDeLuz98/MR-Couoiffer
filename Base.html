@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="es" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO & Metas -->
+    <title>MR Coiffeur | Peluquería & Colorimetría en Sarandí Grande, Florida</title>
+    <meta name="description" content="Peluquería en el centro de Sarandí Grande. Cortes, color, peinados y tratamientos capilares con enfoque en colorimetría. Atención cercana y profesional.">
+    <meta name="author" content="MR Coiffeur">
+    <link rel="canonical" href="https://www.yourdomain.com/"> <!-- Reemplazar con el dominio final -->
+    <link rel="alternate" hreflang="es-UY" href="https://www.yourdomain.com/">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph (Facebook) & Twitter -->
+    <meta property="og:title" content="MR Coiffeur | Peluquería & Colorimetría en Sarandí Grande">
+    <meta property="og:description" content="Atención profesional en cortes, color y peinados con dedicación y experiencia.">
+    <meta property="og:image" content="assets/LogoMR.png">
+    <meta property="og:url" content="https://www.yourdomain.com/"> <!-- Reemplazar con el dominio final -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_UY">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MR Coiffeur | Peluquería & Colorimetría en Sarandí Grande">
+    <meta name="twitter:description" content="Atención profesional en cortes, color y peinados con dedicación y experiencia.">
+    <meta name="twitter:image" content="assets/LogoMR.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="LogoMR.png" type="image/png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css?v=1.1">
+
+    <!-- Schema.org for Local Business -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HairSalon",
+      "name": "MR Coiffeur",
+      "image": "assets/LogoMR.png",
+      "url": "https://www.yourdomain.com/",
+      "telephone": "+59898165967",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1076 Luis Pasteur",
+        "addressLocality": "Sarandí Grande",
+        "addressRegion": "Florida",
+        "addressCountry": "UY"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -33.74500, 
+        "longitude": -56.34500 
+      },
+      "sameAs": [
+        "https://www.facebook.com/mercedes.varela.925/",
+        "https://www.instagram.com/meche20_05/"
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header__container">
+            <a href="#inicio" class="header__logo" aria-label="Ir a la página de inicio de MR Coiffeur">
+                <img src="LogoMR.png" alt="Logo de MR Coiffeur" width="100" height="100">
+            </a>
+            <nav class="header__nav" aria-label="Navegación principal">
+                <ul class="header__menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#colorimetria">Colorimetría</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#precios">Precios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="header__actions">
+                <a href="https://www.facebook.com/mercedes.varela.925/" target="_blank" rel="noopener noreferrer" class="btn btn--primary">Contactar</a>
+                <div class="accessibility-toggles" role="toolbar" aria-label="Controles de accesibilidad">
+                    <button id="font-decrease" aria-label="Disminuir tamaño de fuente">A−</button>
+                    <button id="font-increase" aria-label="Aumentar tamaño de fuente">A+</button>
+                    <button id="motion-toggle" aria-label="Activar o desactivar animaciones">Reducir Animaciones</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <video autoplay loop muted playsinline class="hero__video-background">
+                <source src="VideoMF.mp4" type="video/mp4">
+                Tu navegador no soporta videos HTML5.
+            </video>
+            <div class="hero__content container">
+                <div class="hero__text-panel">
+                    <h1 class="hero__title text-reveal">Peluquería & Colorimetría en Sarandí Grande</h1>
+                    <p class="hero__subtitle">Cortes, color y peinados con dedicación y experiencia.</p>
+                    <div class="hero__cta-group">
+                        <a href="#servicios" class="btn btn--secondary">Ver servicios</a>
+                        <a href="https://www.facebook.com/mercedes.varela.925/" target="_blank" rel="noopener noreferrer" class="btn btn--primary">Contactar por Facebook</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="section services" aria-labelledby="titulo-servicios">
+            <div class="container">
+                <h2 id="titulo-servicios" class="section__title text-reveal">Nuestros Servicios</h2>
+                <div class="services__grid">
+                    <a href="https://wa.me/59898165967?text=Hola%2C%20quisiera%20consultar%2Fsolicitar%20servicio%3A%20Corte%20dama" target="_blank" rel="noopener noreferrer" class="service-card-link">
+                        <article class="service-card">
+                            <h3 class="service-card__title">Corte dama</h3>
+                            <p class="service-card__description">Corte personalizado según forma de rostro y estilo.</p>
+                        </article>
+                    </a>
+                    <a href="https://wa.me/59898165967?text=Hola%2C%20quisiera%20consultar%2Fsolicitar%20servicio%3A%20Color%20completo" target="_blank" rel="noopener noreferrer" class="service-card-link">
+                        <article class="service-card">
+                            <h3 class="service-card__title">Color completo</h3>
+                            <p class="service-card__description">Servicio de color para cambiar look, diagnóstico previo y cuidados.</p>
+                        </article>
+                    </a>
+                    <a href="https://wa.me/59898165967?text=Hola%2C%20quisiera%20consultar%2Fsolicitar%20servicio%3A%20Balayage%2FMechas" target="_blank" rel="noopener noreferrer" class="service-card-link">
+                        <article class="service-card">
+                            <h3 class="service-card__title">Balayage/Mechas</h3>
+                            <p class="service-card__description">Mechas suaves y degradadas para un look natural.</p>
+                        </article>
+                    </a>
+                    <a href="https://wa.me/59898165967?text=Hola%2C%20quisiera%20consultar%2Fsolicitar%20servicio%3A%20Progresivo" target="_blank" rel="noopener noreferrer" class="service-card-link">
+                        <article class="service-card">
+                            <h3 class="service-card__title">Progresivo</h3>
+                            <p class="service-card__description">Alisado progresivo profesional, tratamiento de larga duración.</p>
+                        </article>
+                    </a>
+                    <a href="https://wa.me/59898165967?text=Hola%2C%20quisiera%20consultar%2Fsolicitar%20servicio%3A%20Brushing%2FPeinados" target="_blank" rel="noopener noreferrer" class="service-card-link">
+                        <article class="service-card">
+                            <h3 class="service-card__title">Brushing/Peinados</h3>
+                            <p class="service-card__description">Peinados para eventos, brushing y styling.</p>
+                        </article>
+                    </a>
+                    <a href="https://wa.me/59898165967?text=Hola%2C%20quisiera%20consultar%2Fsolicitar%20servicio%3A%20Corte%20caballero" target="_blank" rel="noopener noreferrer" class="service-card-link">
+                        <article class="service-card">
+                            <h3 class="service-card__title">Corte caballero</h3>
+                            <p class="service-card__description">Cortes rápidos y mantenimiento.</p>
+                        </article>
+                    </a>
+                    <a href="https://wa.me/59898165967?text=Hola%2C%20quisiera%20consultar%2Fsolicitar%20servicio%3A%20Tinturas%20fantas%C3%ADa" target="_blank" rel="noopener noreferrer" class="service-card-link">
+                        <article class="service-card">
+                            <h3 class="service-card__title">Tinturas fantasía</h3>
+                            <p class="service-card__description">Colores vivos y personalizados con cuidado de la fibra capilar.</p>
+                        </article>
+                    </a>
+                    <a href="https://wa.me/59898165967?text=Hola%2C%20quisiera%20consultar%2Fsolicitar%20servicio%3A%20Peinados%20de%20fiesta" target="_blank" rel="noopener noreferrer" class="service-card-link">
+                        <article class="service-card">
+                            <h3 class="service-card__title">Peinados de fiesta</h3>
+                            <p class="service-card__description">Semirecogidos, recogidos y estilos especiales para eventos.</p>
+                        </article>
+                    </a>
+                    <a href="https://wa.me/59898165967?text=Hola%2C%20quisiera%20consultar%2Fsolicitar%20servicio%3A%20Hidrataci%C3%B3n%20profunda" target="_blank" rel="noopener noreferrer" class="service-card-link">
+                        <article class="service-card">
+                            <h3 class="service-card__title">Hidratación profunda</h3>
+                            <p class="service-card__description">Tratamiento nutritivo intensivo para restaurar brillo y suavidad.</p>
+                        </article>
+                    </a>
+                    <a href="https://wa.me/59898165967?text=Hola%2C%20quisiera%20consultar%2Fsolicitar%20servicio%3A%20Permanente" target="_blank" rel="noopener noreferrer" class="service-card-link">
+                        <article class="service-card">
+                            <h3 class="service-card__title">Permanente</h3>
+                            <p class="service-card__description">Rizos definidos o suaves con técnica segura.</p>
+                        </article>
+                    </a>
+                    <a href="https://wa.me/59898165967?text=Hola%2C%20quisiera%20consultar%2Fsolicitar%20servicio%3A%20Dise%C3%B1o%20de%20cejas" target="_blank" rel="noopener noreferrer" class="service-card-link">
+                        <article class="service-card">
+                            <h3 class="service-card__title">Diseño de cejas</h3>
+                            <p class="service-card__description">Perfilado y tinte de cejas para realzar la mirada.</p>
+                        </article>
+                    </a>
+                    <a href="https://wa.me/59898165967?text=Hola%2C%20quisiera%20consultar%2Fsolicitar%20servicio%3A%20Lifting%20de%20pesta%C3%B1as" target="_blank" rel="noopener noreferrer" class="service-card-link">
+                        <article class="service-card">
+                            <h3 class="service-card__title">Lifting de pestañas</h3>
+                            <p class="service-card__description">Realce natural y duradero de pestañas.</p>
+                        </article>
+                    </a>
+                    <a href="https://wa.me/59898165967?text=Hola%2C%20quisiera%20consultar%2Fsolicitar%20servicio%3A%20Manicura%20express" target="_blank" rel="noopener noreferrer" class="service-card-link">
+                        <article class="service-card">
+                            <h3 class="service-card__title">Manicura express</h3>
+                            <p class="service-card__description">Servicio rápido de limado y esmaltado clásico.</p>
+                        </article>
+                    </a>
+                    <a href="https://wa.me/59898165967?text=Hola%2C%20quisiera%20consultar%2Fsolicitar%20servicio%3A%20Tratamiento%20de%20Queratina" target="_blank" rel="noopener noreferrer" class="service-card-link">
+                        <article class="service-card">
+                            <h3 class="service-card__title">Tratamiento de Queratina</h3>
+                            <p class="service-card__description">Repara y nutre el cabello, eliminando el frizz y aportando un brillo espectacular.</p>
+                        </article>
+                    </a>
+                     <a href="https://wa.me/59898165967?text=Hola%2C%20quisiera%20consultar%2Fsolicitar%20servicio%3A%20Maquillaje%20Social" target="_blank" rel="noopener noreferrer" class="service-card-link">
+                        <article class="service-card">
+                            <h3 class="service-card__title">Maquillaje Social</h3>
+                            <p class="service-card__description">Realza tu belleza para cualquier tipo de evento, de día o de noche.</p>
+                        </article>
+                    </a>
+                    <a href="https://wa.me/59898165967?text=Hola%2C%20quisiera%20consultar%2Fsolicitar%20servicio%3A%20Recogidos%20para%20Novias" target="_blank" rel="noopener noreferrer" class="service-card-link">
+                        <article class="service-card">
+                            <h3 class="service-card__title">Recogidos para Novias</h3>
+                            <p class="service-card__description">Asesoramiento y peinados exclusivos para tu día más especial.</p>
+                        </article>
+                    </a>
+                    <a href="https://wa.me/59898165967?text=Hola%2C%20quisiera%20consultar%2Fsolicitar%20servicio%3A%20Correcci%C3%B3n%20de%20Color" target="_blank" rel="noopener noreferrer" class="service-card-link">
+                        <article class="service-card">
+                            <h3 class="service-card__title">Corrección de Color</h3>
+                            <p class="service-card__description">Arreglamos colores no deseados o fallidos. Requiere diagnóstico previo.</p>
+                        </article>
+                    </a>
+                </div>
+                <p class="services__note">No trabajamos con reservas por ahora, pueden acercarse cuando deseen, o escribir por WhatsApp para consultar.</p>
+            </div>
+        </section>
+
+        <section id="colorimetria" class="section colorimetry" aria-labelledby="titulo-colorimetria">
+            <div class="container colorimetry__container">
+                <div class="colorimetry__text">
+                    <h2 id="titulo-colorimetria" class="section__title text-reveal">Diagnóstico Personalizado</h2>
+                    <p>Nuestra formación especializada en colorimetría nos permite realizar un diagnóstico preciso y personalizado. Analizamos la salud de tu cabello, tu tono de piel y tus objetivos para crear el color perfecto, garantizando resultados excepcionales y cuidando la integridad de la fibra capilar en todo momento.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="section gallery" aria-labelledby="titulo-galeria">
+            <div class="container">
+                <h2 id="titulo-galeria" class="section__title text-reveal">Trabajos Recientes</h2>
+                <div class="gallery__carousel-wrapper">
+                    <div class="gallery__carousel" id="gallery-carousel" aria-roledescription="Carrusel de imágenes">
+                        <div class="gallery__track" id="gallery-track">
+                            <!-- Las imágenes se insertarán aquí vía JS -->
+                        </div>
+                    </div>
+                    <button id="prev-btn" class="gallery__nav-btn gallery__nav-btn--prev" aria-label="Imagen anterior">&#10094;</button>
+                    <button id="next-btn" class="gallery__nav-btn gallery__nav-btn--next" aria-label="Siguiente imagen">&#10095;</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonios" class="section testimonials" aria-labelledby="titulo-testimonios">
+            <div class="container">
+                <h2 id="titulo-testimonios" class="section__title text-reveal">Clientes Felices</h2>
+                <div class="testimonials__grid">
+
+                    <!-- INICIO DE PLANTILLA DE TESTIMONIO -->
+                    <!-- Para agregar una nueva opinión, copia todo el bloque desde aquí... -->
+                    <blockquote class="testimonial-card">
+                        <p>El mejor balayage que me han hecho! El color quedó perfecto y el trato fue increíble.</p>
+                        <footer>— Clienta Satisfecha</footer>
+                    </blockquote>
+                    <!-- ...hasta aquí. Luego pégalo debajo y edita el texto. -->
+                    <!-- FIN DE PLANTILLA DE TESTIMONIO -->
+
+                    <!-- Ejemplo 2 -->
+                    <blockquote class="testimonial-card">
+                        <p>Siempre salgo renovada. Mercedes tiene una mano única para el corte y siempre me asesora genial.</p>
+                        <footer>— Clienta Habitual</footer>
+                    </blockquote>
+
+                    <!-- Ejemplo 3 -->
+                    <blockquote class="testimonial-card">
+                        <p>Profesionalismo y calidez. Se nota la pasión que tiene por su trabajo. Totalmente recomendable</p>
+                        <footer>— Nueva Clienta</footer>
+                    </blockquote>
+
+                </div>
+                <div class="valuation-box">
+                    <h3 class="valuation-box__title">¿Te gustó nuestro servicio?</h3>
+                    <p>Tu opinión nos ayuda a mejorar día a día.</p>
+                    <a href="https://docs.google.com/forms/d/10u7WOH7HYw__esqOa-d6ds5ZqZ7KI9hwsKhJXFT4Nu8/edit" class="btn btn--secondary" target="_blank" rel="noopener noreferrer" aria-label="Abrir formulario para valorar nuestro servicio en una nueva pestaña">Valorar servicio</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="precios" class="section prices" aria-labelledby="titulo-precios">
+            <div class="container">
+                <h2 id="titulo-precios" class="section__title text-reveal">Precios Referenciales</h2>
+                <div class="prices__table-wrapper">
+                    <table class="prices__table">
+                        <thead><tr><th>Servicio</th><th>Precio Estimado (UYU)</th></tr></thead>
+                        <tbody>
+                            <tr><td>Corte Dama</td><td>$400</td></tr>
+                            <tr><td>Color Completo (Raíz)</td><td>Desde $800-1200</td></tr>
+                            <tr><td>Balayage / Mechas</td><td>Cabello corto al hombro desde $1800</td></tr>
+                            <tr><td>Progresivo</td><td>Desde $1500 en adelante</td></tr>
+                            <tr><td>Brushing</td><td>Según el largo</td></tr>
+                            <tr><td>Tratamiento Hidratante</td><td>Desde $600 en adelante según el producto</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="prices__note"><strong>Nota:</strong> Los precios son orientativos y pueden variar según el largo y volumen del cabello. Por favor, consultá por mensaje para un presupuesto exacto.</p>
+            </div>
+        </section>
+
+        <section id="sobre-mi" class="section about-me" aria-labelledby="titulo-sobre-mi">
+            <div class="container about-me__container">
+                <h2 id="titulo-sobre-mi" class="section__title text-reveal">Sobre Mí</h2>
+                <p>Con más de 15 años de experiencia en el mundo de la belleza, mi pasión es realzar la belleza natural de cada persona a través del cabello. Me formé como estilista y me especialicé en colorimetría, una disciplina que me fascina. Mi enfoque es siempre cercano y personal, dedicando el tiempo necesario para entender tus deseos y necesidades.</p>
+            </div>
+        </section>
+
+        <section id="contacto" class="section contact" aria-labelledby="titulo-contacto">
+            <div class="container">
+                <h2 id="titulo-contacto" class="section__title text-reveal">Contacto y Ubicación</h2>
+                <div class="contact__info">
+                    <p><strong>Dirección:</strong> 1076 Luis Pasteur, Sarandí Grande, Florida</p>
+                    <p><strong>WhatsApp:</strong> +598 98 165 967</p>
+                    <p class="contact__note">No requerimos reservas, pueden venir cuando deseen, o escribir por WhatsApp para consultas.</p>
+                </div>
+                <div class="contact__buttons">
+                    <a href="https://wa.me/59898165967" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--large"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="btn__icon"><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.8 0-65.7-10.8-94.3-30.6l-6.7-4-69.8 18.3L72 359.2l-4.5-7c-18.8-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.6 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg><span>Enviar WhatsApp</span></a>
+                    <a href="https://www.facebook.com/mercedes.varela.925/" target="_blank" rel="noopener noreferrer" class="btn btn--secondary btn--large"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="btn__icon"><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg><span>Abrir Facebook</span></a>
+                </div>
+                <div class="contact__map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.60211353961!2d-56.3559498419553!3d-33.74500886429515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a1b7a37630b857%3A0x7b3b3b6d23d35a9!2sSarand%C3%AD%20Grande%2C%20Departamento%20de%20Florida%2C%20Uruguay!5e0!3m2!1ses-419!2ses!4v1663444366847!5m2!1ses-419!2ses&q=1076+Luis+Pasteur,+Sarandí+Grande,+Florida" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <p>&copy; <span id="current-year"></span> MR Coiffeur. Todos los derechos reservados.</p>
+            <ul class="footer__links">
+                <li><a href="https://www.facebook.com/mercedes.varela.925/" target="_blank" rel="noopener noreferrer" aria-label="Visita nuestro Facebook"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="footer__icon"><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></a></li>
+                <li><a href="https://www.instagram.com/meche20_05/" target="_blank" rel="noopener noreferrer" aria-label="Visita nuestro Instagram"><img src="IGLOGOMF.png" alt="Instagram" class="footer__icon" id="instagram-icon"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+        <button class="lightbox__close" aria-label="Cerrar imagen">&times;</button>
+        <div class="lightbox__content">
+            <img src="" alt="" id="lightbox-img">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- BOTÓN FLOTANTE -->
+    <div class="chatbot-button" onclick="toggleChat()">
+      <img src="CHATBOTMF.png" alt="Abrir chat">
+    </div>
+
+    <!-- CONTENEDOR DEL CHAT -->
+    <div id="chatbot-container" class="chatbot-container hidden">
+      <div class="chatbot-header">
+        <span>💇‍♀️ MR Coiffeur - Online</span>
+        <button class="chatbot-close" onclick="toggleChat()">✖</button>
+      </div>
+      <div class="chatbot-body" id="chat-body">
+        <div class="bot-msg">¡Hola! 👋 Elegí una de las preguntas:</div>
+        <div class="questions">
+          <button onclick="sendQuestion('✂️ ¿Cómo elegir el corte que mejor me quede según mi rostro?')">✂️ ¿Cómo elegir el corte que mejor me quede según mi rostro?</button>
+          <button onclick="sendQuestion('🗓️ ¿Cada cuánto conviene cortarse el cabello para mantenerlo sano?')">🗓️ ¿Cada cuánto conviene cortarse el cabello para mantenerlo sano?</button>
+          <button onclick="sendQuestion('🎨 ¿Qué color de tinte me conviene según mi tono de piel?')">🎨 ¿Qué color de tinte me conviene según mi tono de piel?</button>
+          <button onclick="sendQuestion('💆‍♀️ ¿Cómo debo cuidar mi cabello después de un color completo?')">💆‍♀️ ¿Cómo debo cuidar mi cabello después de un color completo?</button>
+          <button onclick="sendQuestion('🌟 ¿Qué diferencia hay entre balayage y mechas tradicionales?')">🌟 ¿Qué diferencia hay entre balayage y mechas tradicionales?</button>
+          <button onclick="sendQuestion('🔄 ¿Cada cuánto debo retocar las mechas para que se vean naturales?')">🔄 ¿Cada cuánto debo retocar las mechas para que se vean naturales?</button>
+          <button onclick="sendQuestion('🧴 ¿Cuánto dura un alisado progresivo profesional?')">🧴 ¿Cuánto dura un alisado progresivo profesional?</button>
+          <button onclick="sendQuestion('⚡ ¿El progresivo daña el cabello?')">⚡ ¿El progresivo daña el cabello?</button>
+          <button onclick="sendQuestion('💇‍♀️ ¿Cómo lograr que mi peinado dure todo el día?')">💇‍♀️ ¿Cómo lograr que mi peinado dure todo el día?</button>
+          <button onclick="sendQuestion('✨ ¿Qué productos usar para mantener el brushing?')">✨ ¿Qué productos usar para mantener el brushing?</button>
+          <button onclick="sendQuestion('⏱️ ¿Cada cuánto debería cortarme el cabello si soy hombre?')">⏱️ ¿Cada cuánto debería cortarme el cabello si soy hombre?</button>
+          <button onclick="sendQuestion('💈 ¿Qué estilos de corte son más modernos para caballero?')">💈 ¿Qué estilos de corte son más modernos para caballero?</button>
+          <button onclick="sendQuestion('🌈 ¿Qué cuidados necesito para un tinte fantasía?')">🌈 ¿Qué cuidados necesito para un tinte fantasía?</button>
+          <button onclick="sendQuestion('❌ ¿Se puede decolorar sin dañar el cabello?')">❌ ¿Se puede decolorar sin dañar el cabello?</button>
+          <button onclick="sendQuestion('💃 ¿Qué peinado es más recomendable para mi tipo de evento?')">💃 ¿Qué peinado es más recomendable para mi tipo de evento?</button>
+          <button onclick="sendQuestion('💄 ¿Cómo combinar el maquillaje con el peinado para que dure más?')">💄 ¿Cómo combinar el maquillaje con el peinado para que dure más?</button>
+          <button onclick="sendQuestion('💧 ¿Qué tratamiento es mejor para cabello muy seco o dañado?')">💧 ¿Qué tratamiento es mejor para cabello muy seco o dañado?</button>
+          <button onclick="sendQuestion('⏳ ¿Cada cuánto conviene hacer una hidratación profunda o queratina?')">⏳ ¿Cada cuánto conviene hacer una hidratación profunda o queratina?</button>
+          <button onclick="sendQuestion('👁️ ¿Cómo mantener mis cejas y pestañas después del tratamiento?')">👁️ ¿Cómo mantener mis cejas y pestañas después del tratamiento?</button>
+          <button onclick="sendQuestion('🖌️ ¿Cada cuánto conviene retocar cejas o lifting de pestañas?')">🖌️ ¿Cada cuánto conviene retocar cejas o lifting de pestañas?</button>
+          <button onclick="sendQuestion('🎯 ¿Qué hago si el color de mi cabello quedó diferente al esperado?')">🎯 ¿Qué hago si el color de mi cabello quedó diferente al esperado?</button>
+          <button onclick="sendQuestion('✨ ¿Cómo recuperar el brillo y suavidad después de una corrección de color?')">✨ ¿Cómo recuperar el brillo y suavidad después de una corrección de color?</button>
+        </div>
+        <div class="typing-indicator hidden">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+
+    <style>
+    /* BOTÓN FLOTANTE */
+    .chatbot-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      background: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+      z-index: 2001;
+    }
+    .chatbot-button:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+    }
+
+    .chatbot-button img {
+      width: 70%;
+      height: 70%;
+      object-fit: contain;
+    }
+
+    /* CONTENEDOR DEL CHAT */
+    .chatbot-container {
+      position: fixed;
+      bottom: 90px;
+      right: 20px;
+      width: 320px;
+      max-height: 400px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      z-index: 2001;
+      transform-origin: bottom right;
+      transition: opacity 0.4s ease, transform 0.4s ease;
+    }
+    .chatbot-container.hidden {
+        opacity: 0;
+        transform: translateY(20px) scale(0.95);
+        pointer-events: none;
+    }
+
+    .chatbot-header {
+      background: #0f172a;
+      color: #fff;
+      padding: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: bold;
+    }
+
+    .chatbot-close {
+      background: transparent;
+      border: none;
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    .chatbot-body {
+      flex: 1;
+      padding: 10px;
+      overflow-y: auto;
+      font-size: 14px;
+      background: #f9fafb;
+    }
+
+    .bot-msg, .user-msg {
+      padding: 8px 12px;
+      border-radius: 10px;
+      margin: 6px 0;
+      max-width: 80%;
+      animation: message-slide-in 0.4s ease forwards;
+    }
+
+    .bot-msg {
+      background: #e5e7eb;
+    }
+
+    .user-msg {
+      background: #4f46e5;
+      color: white;
+      align-self: flex-end;
+    }
+
+    .questions button {
+      display: block;
+      width: 100%;
+      margin: 4px 0;
+      padding: 8px;
+      border: none;
+      background: #f3f4f6;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.2s, transform 0.2s, box-shadow 0.2s;
+    }
+    .questions button:hover {
+      background: #e5e7eb;
+      transform: translateY(-1px);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    
+    .typing-indicator {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .typing-indicator span {
+        height: 8px;
+        width: 8px;
+        background-color: #aaa;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0 2px;
+        animation: typing-bounce 1.2s infinite ease-in-out;
+    }
+    .typing-indicator span:nth-child(2) {
+        animation-delay: -0.2s;
+    }
+    .typing-indicator span:nth-child(3) {
+        animation-delay: -0.4s;
+    }
+    .typing-indicator.hidden {
+        display: none;
+    }
+
+    @keyframes message-slide-in {
+        from { opacity: 0; transform: translateY(15px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes typing-bounce {
+        0%, 80%, 100% { transform: scale(0); }
+        40% { transform: scale(1.0); }
+    }
+    </style>
+
+    <script>
+    function toggleChat() {
+      document.getElementById("chatbot-container").classList.toggle("hidden");
+    }
+
+    function sendQuestion(question) {
+        const chatBody = document.getElementById("chat-body");
+        const questionsDiv = chatBody.querySelector(".questions");
+        const typingIndicator = chatBody.querySelector(".typing-indicator");
+
+        // Hide questions and show user message
+        questionsDiv.classList.add("hidden");
+        let userMsg = document.createElement("div");
+        userMsg.className = "user-msg";
+        userMsg.innerText = question;
+        chatBody.appendChild(userMsg);
+        chatBody.scrollTop = chatBody.scrollHeight;
+
+        // Show typing indicator
+        typingIndicator.classList.remove("hidden");
+
+        // Wait, then show bot response
+        setTimeout(() => {
+            typingIndicator.classList.add("hidden");
+
+            let botMsg = document.createElement("div");
+            botMsg.className = "bot-msg";
+            botMsg.innerText = getAnswer(question);
+            chatBody.appendChild(botMsg);
+            chatBody.scrollTop = chatBody.scrollHeight;
+
+            // Optional: Show questions again after a delay
+            setTimeout(() => {
+                questionsDiv.classList.remove("hidden");
+                chatBody.scrollTop = chatBody.scrollHeight;
+            }, 500);
+
+        }, 1000); // 1 second "typing"
+    }
+
+    function getAnswer(question) {
+      switch(question) {
+        case "✂️ ¿Cómo elegir el corte que mejor me quede según mi rostro?":
+            return "La forma de tu rostro influye mucho: los rostros redondos se benefician con cortes en capas largas, los cuadrados con ondas suaves, y los ovalados se adaptan a casi cualquier estilo.";
+        case "🗓️ ¿Cada cuánto conviene cortarse el cabello para mantenerlo sano?":
+          return "Lo ideal es cada 2 a 3 meses para evitar puntas abiertas y mantener la forma.";
+        case "🎨 ¿Qué color de tinte me conviene según mi tono de piel?":
+          return "Piel cálida: tonos dorados, cobrizos o miel. Piel fría: rubios platinados, castaños ceniza o tonos rojizos fríos.";
+        case "💆‍♀️ ¿Cómo debo cuidar mi cabello después de un color completo?":
+          return "Usar shampoo sin sulfatos, hidrataciones semanales y evitar el calor excesivo.";
+        case "🌟 ¿Qué diferencia hay entre balayage y mechas tradicionales?":
+          return "El balayage es un degradado natural pintado a mano, mientras que las mechas tradicionales son más marcadas y parten desde la raíz.";
+        case "🔄 ¿Cada cuánto debo retocar las mechas para que se vean naturales?":
+          return "Cada 3 a 4 meses, dependiendo del crecimiento y el efecto deseado.";
+        case "🧴 ¿Cuánto dura un alisado progresivo profesional?":
+          return "Generalmente entre 3 y 6 meses, según el cuidado y el tipo de cabello.";
+        case "⚡ ¿El progresivo daña el cabello?":
+          return "Si está bien hecho y se utilizan buenos productos, no debería dañarlo. Es importante hidratar después.";
+        case "💇‍♀️ ¿Cómo lograr que mi peinado dure todo el día?":
+          return "Usar productos fijadores de buena calidad y proteger el peinado de la humedad.";
+        case "✨ ¿Qué productos usar para mantener el brushing?":
+          return "Sérum antifrizz, spray de fijación ligera y protector térmico.";
+        case "⏱️ ¿Cada cuánto debería cortarme el cabello si soy hombre?":
+          return "Lo ideal es cada 3 a 5 semanas, según el estilo y la velocidad de crecimiento.";
+        case "💈 ¿Qué estilos de corte son más modernos para caballero?":
+          return "Fades, undercuts y cortes con textura en la parte superior.";
+        case "🌈 ¿Qué cuidados necesito para un tinte fantasía?":
+          return "Lavarse con agua fría, usar shampoo matizador y mascarillas nutritivas.";
+        case "❌ ¿Se puede decolorar sin dañar el cabello?":
+          return "Siempre hay un poco de daño, pero con productos profesionales y tratamientos posteriores se minimiza mucho.";
+        case "💃 ¿Qué peinado es más recomendable para mi tipo de evento?":
+          return "Depende de si es formal o informal. Para bodas suelen elegirse recogidos, para fiestas ondas sueltas o semirrecogidos.";
+        case "💄 ¿Cómo combinar el maquillaje con el peinado para que dure más?":
+          return "Usar fijador de maquillaje y lacas suaves para el peinado, cuidando que ambos estilos se complementen.";
+        case "💧 ¿Qué tratamiento es mejor para cabello muy seco o dañado?":
+          return "La hidratación profunda y la queratina son ideales para recuperar suavidad y brillo.";
+        case "⏳ ¿Cada cuánto conviene hacer una hidratación profunda o queratina?":
+          return "Hidratación: cada 15 días. Queratina: cada 3 a 6 meses.";
+        case "👁️ ¿Cómo mantener mis cejas y pestañas después del tratamiento?":
+          return "Evitar maquillaje los primeros días, hidratar con aceites naturales y no frotar.";
+        case "🖌️ ¿Cada cuánto conviene retocar cejas o lifting de pestañas?":
+          return "Entre 4 y 6 semanas.";
+        case "🎯 ¿Qué hago si el color de mi cabello quedó diferente al esperado?":
+          return "Se puede matizar o aplicar una corrección profesional para ajustar el tono.";
+        case "✨ ¿Cómo recuperar el brillo y suavidad después de una corrección de color?":
+          return "Con tratamientos nutritivos, mascarillas y evitando el calor excesivo.";
+        default:
+          return "Esa pregunta aún no está disponible.";
+      }
+    }
+    </script>
+</body>
+</html>
