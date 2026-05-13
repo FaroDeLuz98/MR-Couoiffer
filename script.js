@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!galleryTrack) return;
         galleryTrack.innerHTML = '';
         for (let i = 1; i <= TOTAL_GALLERY_IMAGES; i++) {
-            if (i === 12) continue; // Omitir si falta
+            if (i === 12 || i === 13 || i === 4 || i === 2 || (i >= 34 && i <= 42)) continue;
             const slide = document.createElement('div');
             slide.className = 'gallery__slide';
             slide.setAttribute('role', 'group');
@@ -101,6 +101,78 @@ document.addEventListener('DOMContentLoaded', () => {
             galleryTrack.appendChild(slide);
 
             slide.addEventListener('click', () => openLightbox(img.src, img.alt));
+        }
+        for (let j = 85; j <= 106; j++) {
+            const slide = document.createElement('div');
+            slide.className = 'gallery__slide';
+            slide.setAttribute('role', 'group');
+            slide.setAttribute('aria-label', `Imagen ${j}`);
+            const rawFileNameJpeg = `Publi (${j}).jpeg`;
+            const encodedFileNameJpeg = encodeURIComponent(rawFileNameJpeg).replace(/\(/g, '%28').replace(/\)/g, '%29');
+            const imgJpeg = document.createElement('img');
+            imgJpeg.src = encodedFileNameJpeg;
+            imgJpeg.alt = `Trabajo de peluquería ${j}`;
+            imgJpeg.loading = 'lazy';
+            imgJpeg.decoding = 'async';
+            imgJpeg.width = 400;
+            imgJpeg.height = 400;
+            slide.appendChild(imgJpeg);
+            galleryTrack.appendChild(slide);
+            slide.addEventListener('click', () => openLightbox(imgJpeg.src, imgJpeg.alt));
+        }
+        for (let k = 107; k <= 109; k++) {
+            const slide = document.createElement('div');
+            slide.className = 'gallery__slide';
+            slide.setAttribute('role', 'group');
+            slide.setAttribute('aria-label', `Imagen ${k}`);
+            const rawFileNameJpeg = `Publi (${k}).jpeg`;
+            const encodedFileNameJpeg = encodeURIComponent(rawFileNameJpeg).replace(/\(/g, '%28').replace(/\)/g, '%29');
+            const imgJpeg = document.createElement('img');
+            imgJpeg.src = encodedFileNameJpeg;
+            imgJpeg.alt = `Trabajo de peluquería ${k}`;
+            imgJpeg.loading = 'lazy';
+            imgJpeg.decoding = 'async';
+            imgJpeg.width = 400;
+            imgJpeg.height = 400;
+            slide.appendChild(imgJpeg);
+            galleryTrack.appendChild(slide);
+            slide.addEventListener('click', () => openLightbox(imgJpeg.src, imgJpeg.alt));
+        }
+        for (let m = 110; m <= 114; m++) {
+            const slide = document.createElement('div');
+            slide.className = 'gallery__slide';
+            slide.setAttribute('role', 'group');
+            slide.setAttribute('aria-label', `Imagen ${m}`);
+            const rawFileNameJpeg = `Publi (${m}).jpeg`;
+            const encodedFileNameJpeg = encodeURIComponent(rawFileNameJpeg).replace(/\(/g, '%28').replace(/\)/g, '%29');
+            const imgJpeg = document.createElement('img');
+            imgJpeg.src = encodedFileNameJpeg;
+            imgJpeg.alt = `Trabajo de peluquería ${m}`;
+            imgJpeg.loading = 'lazy';
+            imgJpeg.decoding = 'async';
+            imgJpeg.width = 400;
+            imgJpeg.height = 400;
+            slide.appendChild(imgJpeg);
+            galleryTrack.appendChild(slide);
+            slide.addEventListener('click', () => openLightbox(imgJpeg.src, imgJpeg.alt));
+        }
+        for (let n = 115; n <= 116; n++) {
+            const slide = document.createElement('div');
+            slide.className = 'gallery__slide';
+            slide.setAttribute('role', 'group');
+            slide.setAttribute('aria-label', `Imagen ${n}`);
+            const rawFileNameJpeg = `Publi (${n}).jpeg`;
+            const encodedFileNameJpeg = encodeURIComponent(rawFileNameJpeg).replace(/\(/g, '%28').replace(/\)/g, '%29');
+            const imgJpeg = document.createElement('img');
+            imgJpeg.src = encodedFileNameJpeg;
+            imgJpeg.alt = `Trabajo de peluquería ${n}`;
+            imgJpeg.loading = 'lazy';
+            imgJpeg.decoding = 'async';
+            imgJpeg.width = 400;
+            imgJpeg.height = 400;
+            slide.appendChild(imgJpeg);
+            galleryTrack.appendChild(slide);
+            slide.addEventListener('click', () => openLightbox(imgJpeg.src, imgJpeg.alt));
         }
         slides = Array.from(galleryTrack.children);
     };
